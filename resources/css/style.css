@@ -1,0 +1,63 @@
+/* Header Styling */
+body {
+  margin: 0;
+
+}
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  width: auto;
+  height: 80px;
+  border-bottom: solid 1px black;
+
+
+}
+
+.logo {
+  height: 60px;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  margin: 10px 15px;
+
+
+}
+.logo span {
+  color: MediumAquamarine;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 30px;
+
+
+}
+
+nav span {
+  display: inline-block;
+  padding-left: 25px;
+
+
+}
+a {
+    color: black;
+}
+a:visited {
+    color: black ;
+}
+a:hover {
+    color: black ;
+}
+a:focus {
+    color: black ;
+}
+a:active {
+    color: black;
+}
